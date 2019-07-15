@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [Suite1]">
+  <parameter name="browserName" value="ie"/>
+  <test parallel="tests" name="Test_IE(failed)">
+    <parameter name="browserName" value="ie"/>
+    <classes>
+      <class name="SpatialSearch.SpatialSearch.multiBrowserParallel_test5">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="test1"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- SpatialSearch.SpatialSearch.multiBrowserParallel_test5 -->
+    </classes>
+  </test> <!-- Test_IE(failed) -->
+  <test parallel="tests" name="Test_Chrome(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="SpatialSearch.SpatialSearch.multiBrowserParallel_test5">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="test1"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- SpatialSearch.SpatialSearch.multiBrowserParallel_test5 -->
+    </classes>
+  </test> <!-- Test_Chrome(failed) -->
+  <test parallel="tests" name="Test_FF(failed)">
+    <parameter name="browserName" value="firefox"/>
+    <classes>
+      <class name="SpatialSearch.SpatialSearch.multiBrowserParallel_test5">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="test1"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- SpatialSearch.SpatialSearch.multiBrowserParallel_test5 -->
+    </classes>
+  </test> <!-- Test_FF(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

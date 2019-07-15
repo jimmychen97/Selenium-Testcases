@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="2" failures="1" name="TestSuite" time="4.841" errors="0" skipped="1">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.3+7"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.3.7-hotspot\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\hao10315\eclipse-workspace\SpatialSearch"/>
+    <property name="java.vm.vendor" value="AdoptOpenJDK"/>
+    <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\hao10315\eclipse-workspace\SpatialSearch"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="11.0.3+7"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\hao10315\AppData\Local\Temp\1\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\hao10315\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4740858786114826322.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.3.7-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/AdoptOpenJDK/jdk-11.0.3.7-hotspot/bin/server;C:/Program Files/AdoptOpenJDK/jdk-11.0.3.7-hotspot/bin;C:\Program Files\AdoptOpenJDK\jdk-11.0.3.7-hotspot\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\hao10315\AppData\Local\Programs\Python\Python37;\Users\hao10315\AppData\Roaming\Python\Python37\Scripts;;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\nodejs\;C:\Users\hao10315\AppData\Local\Microsoft\WindowsApps;C:\Users\hao10315\AppData\Local\Programs\Python\Python37;C:\Users\hao10315\AppData\Local\Programs\Microsoft VS Code\bin;\Users\hao10315\AppData\Roaming\Python\Python37\Scripts;C:\Users\hao10315\AppData\Local\Yarn\bin;C:\Users\hao10315\Desktop\Selenium\geckodriver-v0.24.0-win64;C:\Users\hao10315\Desktop\Selenium\chromedriver_win32;C:\Users\hao10315\AppData\Roaming\npm;C:\Program Files\nodejs;C:\Users\hao10315\AppData\Local\GitHubDesktop\bin;C:\Users\hao10315\eclipse\java-2019-03\eclipse;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\hao10315"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="hao10315"/>
+    <property name="java.class.path" value="C:\Users\hao10315\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.11.0.20190220-2117\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean install"/>
+    <property name="java.home" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.3.7-hotspot"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.3"/>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="maven.home" value="C:\Users\hao10315\eclipse-workspace\SpatialSearch\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2019-04-16"/>
+    <property name="java.vendor.url.bug" value="https://github.com/AdoptOpenJDK/openjdk-build/issues"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="AdoptOpenJDK"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="SpatialSearch.SpatialSearch.parallelTesting_Test" name="test1" time="0.308">
+    <skipped/>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@4973813a
+</system-out>
+  </testcase>
+  <testcase classname="SpatialSearch.SpatialSearch.proxyTest" name="networkTest" time="4.533">
+    <failure message="
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MQ1H7NT&apos;, ip: &apos;10.29.76.152&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.3&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 68.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190705220548, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 29528, moz:profile: C:\Users\hao10315\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(manual, http=mq1h7nt:..., rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ce5c4e14-4349-4752-acfc-e52938d0ec77" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MQ1H7NT&apos;, ip: &apos;10.29.76.152&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.3&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 68.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190705220548, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 29528, moz:profile: C:\Users\hao10315\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(manual, http=mq1h7nt:..., rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ce5c4e14-4349-4752-acfc-e52938d0ec77
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at SpatialSearch.SpatialSearch.proxyTest.networkTest(proxyTest.java:42)
+</failure>
+    <system-err>SLF4J: Failed to load class &quot;org.slf4j.impl.StaticLoggerBinder&quot;.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+1562705654205	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files\\Mozilla Firefox\\firefox.exe&quot; &quot;-marionette&quot; &quot;-foreground&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Users\\hao10315\\AppData\\Local\\Temp\\1\\rust_mozprofile.KYSsmRAvMJQ5&quot;
+1562705654560	addons.webextension.screenshots@mozilla.org	WARN	Loading extension &apos;screenshots@mozilla.org&apos;: Reading manifest: Invalid extension permission: mozillaAddons
+1562705654560	addons.webextension.screenshots@mozilla.org	WARN	Loading extension &apos;screenshots@mozilla.org&apos;: Reading manifest: Invalid extension permission: telemetry
+1562705654560	addons.webextension.screenshots@mozilla.org	WARN	Loading extension &apos;screenshots@mozilla.org&apos;: Reading manifest: Invalid extension permission: resource://pdf.js/
+1562705654560	addons.webextension.screenshots@mozilla.org	WARN	Loading extension &apos;screenshots@mozilla.org&apos;: Reading manifest: Invalid extension permission: about:reader*
+1562705655906	Marionette	INFO	Listening on port 61242
+1562705656318	Marionette	INFO	Proxy settings initialised: {&quot;proxyType&quot;:&quot;manual&quot;,&quot;httpProxy&quot;:&quot;mq1h7nt:61236&quot;,&quot;sslProxy&quot;:&quot;mq1h7nt:61236&quot;}
+Jul 09, 2019 1:54:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+</testsuite>
